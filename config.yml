@@ -1,0 +1,124 @@
+configure_dock: true
+dockitems_remove:
+ - Launchpad
+ - TV
+ - Podcasts
+ - 'App Store'
+ - Pages
+ - Numbers
+ - Keynote
+ - News
+ - Music
+ - Reminders
+ - Contacts
+ - FaceTime
+ - Photos
+ - Maps
+
+dockitems_persist: 
+ - name: "stoic"
+   path: "/Applications/stoic.app"
+   pos: 1
+ - name: "Things 3"
+   path: "/Applications/Things3.app"
+   pos: 2
+ - name: "Sublime Text"
+   path: "/Applications/Sublime Text.app/"
+   pos: 5
+
+
+dotfiles_repo: https://github.com/ebfio/dotfiles.git
+dotfiles_repo_accept_hostkey: true
+dotfiles_repo_local_destination: ~/code/GitHub/dotfiles
+dotfiles_files:
+  - .zshrc
+  - .gitignore
+  - .inputrc
+  - .osx
+  - .vimrc
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - autoconf
+  - bash-completion
+  - doxygen
+  - gettext
+  - gifsicle
+  - git
+  - github/gh/gh
+  - go
+  - gpg
+  - httpie
+  - iperf
+  - libevent
+  - sqlite
+  - mcrypt
+  - nmap
+  - node
+  - nvm
+  - ssh-copy-id
+  - cowsay
+  - readline
+  - openssl
+  - pv
+  - wget
+  - wrk
+  - zsh-history-substring-search
+  - rust
+ 
+homebrew_cask_apps:
+  - chromedriver
+  - docker
+  - dropbox
+  - firefox
+  - google-chrome
+  - handbrake
+  - licecap
+  - sequel-ace
+  - slack
+  - sublime-text
+  - transmit
+  - alfred
+  - 1password
+  - 1password-cli
+  - adobe-creative-cloud
+  - anaconda
+  - vlc
+  - obs
+  - obs-virtualcam
+  - whatsapp
+  - zoom
+  - utm
+  - pycharm-ce
+  - markright
+  - iterm2
+
+# See `geerlingguy.mas` role documentation for usage instructions.
+mas_installed_apps:
+  - 1312926037
+  - 497799835
+  - 1502839586
+  - 549083868
+  - 904280696
+
+mas_email: ""
+mas_password: ""
+
+# Set to 'true' to configure Sublime Text.
+configure_sublime: true
+sublime_base_path: '~/Library/Application Support/Sublime Text'
+sublime_config_path: "Packages/User"
+sublime_package_control:
+  - "DocBlockr"
+  - "Dockerfile Syntax Highlighting"
+  - "FileDiffs"
+  - "GitHub Flavored Markdown Preview"
+  - "Jinja2"
+  - "Package Control"
+  - "Pretty JSON"
+  - "SublimeLinter"
+  - "SublimeLinter-contrib-yamllint"
+  - "TrailingSpaces"
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+post_provision_tasks: []
