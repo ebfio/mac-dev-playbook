@@ -22,6 +22,9 @@ dockitems_persist:
  - name: "Things 3"
    path: "/Applications/Things3.app"
    pos: 2
+ - name: "Obsidian"
+   path: "/Applications/Obsidian.app"
+   pos: 3
  - name: "Sublime Text"
    path: "/Applications/Sublime Text.app/"
    pos: 5
@@ -92,6 +95,8 @@ homebrew_cask_apps:
   - pycharm-ce
   - markright
   - iterm2
+  - obsidian
+  - visual-studio-code
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
