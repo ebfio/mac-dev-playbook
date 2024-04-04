@@ -19,7 +19,7 @@ dockitems_persist:
  - name: "stoic"
    path: "/Applications/stoic.app"
    pos: 1
- - name: "Things 3"
+ - name: "Things3"
    path: "/Applications/Things3.app"
    pos: 2
  - name: "Obsidian"
@@ -87,16 +87,16 @@ homebrew_cask_apps:
   - adobe-creative-cloud
   - anaconda
   - vlc
-  - obs
+#  - obs
   - obs-virtualcam
   - whatsapp
   - zoom
   - utm
   - pycharm-ce
   - markright
-  - iterm2
+#  - iterm2
   - obsidian
-  - visual-studio-code
+#  - visual-studio-code
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
