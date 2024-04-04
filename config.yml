@@ -44,14 +44,14 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
   - bash-completion
-  - doxygen
+  #- doxygen
   - gettext
   - gifsicle
   - git
   - gh
   - go
   - gpg
-  - httpie
+  #- httpie
   - iperf
   - libevent
   - sqlite
@@ -71,41 +71,59 @@ homebrew_installed_packages:
  
 homebrew_cask_apps:
   - chromedriver
+  #- bitwarden
+  - sqlpro-for-sqlite
   - docker
   - dropbox
   - firefox
+  - warp
+  - arq
   - google-chrome
   - handbrake
   - licecap
+  - appcleaner
+  - barrier
+  - coconutBattery
+  - spotify
+  - sonos
+  - bambu-studio
+  - steam
+  - raspberry-pi-imager
   - sequel-ace
   - slack
   - sublime-text
   - transmit
   - alfred
-  - 1password
-  - 1password-cli
   - adobe-creative-cloud
   - anaconda
   - vlc
-#  - obs
+  - obs
   - obs-virtualcam
   - whatsapp
   - zoom
   - utm
   - pycharm-ce
   - markright
-#  - iterm2
+  - iterm2
   - obsidian
-#  - visual-studio-code
+  - visual-studio-code
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
-  - 1352778147
+  - 1502839586 # Handmirror
+  - 1352778147 # Bitwarden
   - 1312926037
-  - 497799835
+  - 497799835 # XCode
   - 1502839586
   - 549083868
-  - 904280696
+  - 1295203466 # Microsoft Remote Desktop
+  - 6444602274 # Ivory
+  - 904280696 # Things 3
+  - 1147396723 # WhatsApp Desktop
+  - 803453959 # Slack
+  - 1451685025 # Wireguard
+  - 1455214828 # MQTT Explorer
+  - 1099568401 # Home Assistant
 
 mas_email: ""
 mas_password: ""
