@@ -48,14 +48,14 @@ homebrew_installed_packages:
   - gettext
   - gifsicle
   - git
-  - github/gh/gh
+  - gh
   - go
   - gpg
   - httpie
   - iperf
   - libevent
   - sqlite
-  - mcrypt
+  #- mcrypt
   - nmap
   - node
   - nvm
