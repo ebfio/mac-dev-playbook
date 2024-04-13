@@ -90,6 +90,8 @@ homebrew_cask_apps:
   - steam
   - raspberry-pi-imager
   - sequel-ace
+  - charles
+  - the-unarchiver
   - slack
   - sublime-text
   - transmit
