@@ -74,6 +74,7 @@ homebrew_cask_apps:
   #- bitwarden
   - sqlpro-for-sqlite
   - docker
+  - skype
   - dropbox
   - firefox
   - warp
