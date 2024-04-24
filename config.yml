@@ -93,6 +93,7 @@ homebrew_cask_apps:
   - sequel-ace
   - charles
   - the-unarchiver
+  - insta360-studio
   - slack
   - sublime-text
   - transmit
